@@ -294,6 +294,12 @@ ul li img {
 	width: 100%;
 }
 
+img.unkownPerson {
+	position: relative;
+	top: 10px;
+}
+
+
 /* Portrait tablet and small desktops */
 @media (max-width: 940px) {
 	
@@ -306,3 +312,6 @@ ul li img {
 /* Landscape phones and down */
 @media (max-width: 480px) {
 }
+=======
+
+
