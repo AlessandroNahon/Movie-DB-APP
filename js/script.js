@@ -167,6 +167,8 @@ MovieDBApp.init = function() {
 		$('.header-image').hide();
 		$('.header-two').show();
 		$('#searchForm').addClass('header-custom');
+		$('.flexForm').addClass('flexShrink');
+		$('h1').addClass('headerShrink');
 
 		$.when(MovieDBApp.getPersonId($('input[name=search]').val())).then(function(getPersonIdResult) {
 
